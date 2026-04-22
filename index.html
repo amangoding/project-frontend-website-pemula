@@ -28,7 +28,14 @@
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
-                <li>CONTACT</li>
+
+                <div class="dropdown">
+                    <li>CONTACT</li>
+                    <div class="dropdown-contact">
+                        <a href="email.com">email</a>
+                        <a href="">wa</a>
+                    </div>
+                </div>
             </ul>
         </nav>
         <div class="menu-bar">
@@ -59,9 +66,14 @@
                 </h2>
             </a>
         </button>
+
+        <div class="response">
+            <input onkeydown="greetings()" type="text" id="input">
+            <button onclick="halo()" id="sendbtn">send</button>
+        </div>
+
     </main>
 
-    <button onclick="halo()"></button>
 
     <footer>
         <h3>ini adalah footer</h3>
