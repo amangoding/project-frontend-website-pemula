@@ -3,10 +3,9 @@ function halo() {
 
     if (input === "") {
         alert("harus memasukkan nama!")
-        return
+    } else {
+        alert(`halo ${input}, bagaimana kabarmu?`)
     }
-
-    alert(`halo ${input}, berapa uisamu?`)
 }
 
 console.log("halo dunia!")
