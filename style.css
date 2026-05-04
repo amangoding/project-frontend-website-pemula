@@ -11,7 +11,7 @@ html,* {
     --bg-fontprimary: #000000c7;
     --bg-font: #f9f9f9;
     --bg-kesekian: #007077;
-    --bg-kesekianlowopacity: #006f778c;
+    --bg-kesekianlowopacity: #006f7777;
     --bg-kesekian1: #054854;
     --bg-kesekian2: #102B33;
 }
@@ -43,9 +43,12 @@ body {
 }
 
 header {
-    /* background-color: var(--bg-kesekian); */
+    background-color: var(--bg-kesekianlowopacity);
     width: 100%;
     height: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
@@ -328,7 +331,7 @@ footer {
 }
 
 .fa-brands {
-    color: #ccccccec;
+    color: #efefef;
     width: 40px;
     height: 40px;
     font-size: 35px;
@@ -444,7 +447,7 @@ footer {
     footer {
         width: 100%;
         height: 120px;
-        background-color: none;
+        background-color: #f8b568ad;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -454,6 +457,6 @@ footer {
         width: 100%;
         height: 100%;
         margin-bottom: 25px;
+        background-color: #f8b5688d;
     }
 }
-
