@@ -1,7 +1,7 @@
 function halo() {
     const input = document.querySelector("#input").value
 
-    if (input === "") {
+    if (input == "") {
         alert("harus memasukkan nama!")
     } else {
         alert(`halo ${input}, bagaimana kabarmu?`)
