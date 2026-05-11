@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/31d33a80a1.js" crossorigin="anonymous"></script>
-    <title>project frontend pemula anuae</title>
+    <title>project frontend pemula</title>
 </head>
 
 <body>
@@ -26,11 +26,13 @@
             <nav>
                 <ul>
                     <li>HOME</li>
-                    <li>ABOUT</li>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
                     <div class="dropdown">
                         <li>CONTACT</li>
                         <div class="dropdown-contact">
-                            <a href="mailto:coconutfarmer99@gmail.com">email</a>
+                            <a href="mailto:kesumaaa34@gmail.com">email</a>
                             <a href="https://wa.me/+395506505102">wa</a>
                         </div>
                     </div>
@@ -48,41 +50,43 @@
         <main>
             <div class="content">
                 <div class="welcome">
-                    <div class="welcome-element"></div>
+                    <div id="welcome-element"></div>
                     <div class="konten">
                         <h1 id="welcome">WELCOME!</h1>
                         <p>
-                            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR
+                            WE CREATE ELEGANT AND RESPONSIVE WEBSITES THAT HELP YOUR BUSINESS STAND OUT ONLINE
                         </p>
                     </div>
-                    <div class="welcome-element"></div>
                 </div>
-                <button>
-                    <a href="https://google.com">
+                <div id="discover">
+                    <input type="text" placeholder="enter your name here" id="greet">
+                    <button onclick="discoverBtn()">
                         <h2>
                             DISCOVER!
                         </h2>
-                    </a>
-                </button>
+                    </button>
+                    <div id="discoverResult"></div>
+                </div>
 
-                <div class="response">
+                <!-- <div class="response">
                     <input onkeydown="greetings()" type="text" id="input" placeholder="silakan masukkan namamu">
                     <button onclick="halo()" id="sendbtn">SEND</button>
-                </div>
+                </div> -->
             </div>
         </main>
 
         <footer>
-            <p>silakan kontak saya di sini</p>
+            <p>silakan kunjungi saya di sini</p>
             <div class="icons">
-                <a href="https://youtube.com">
-                    <i class="fa-brands fa-youtube"></i>
+                <a href="https://github.com/amangoding">
+                    <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="https://web.facebook.com/profile.php?id=100061705094629">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://instagram.com/wijayanto_boy25">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
         </footer>
         <script src="script.js"></script>
